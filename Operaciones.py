@@ -44,6 +44,8 @@ def main():
         contar(x,y)
 
         ciclo = input("¿Otra operación? (S/n)")
+    else:
+        print("***** Fin del programa *****")
 
 if __name__=="__main__":
     main()
