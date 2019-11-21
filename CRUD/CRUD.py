@@ -5,7 +5,7 @@ import fpdf
 from fpdf import FPDF
 
 # abrir conexion a la base de datos msc2019 y la tabla trabajdores
-db = pymysql.connect("localhost", "root", "", "msc2019")
+db = pymysql.connect("juandebarco.com", "juandeba_admin", "time in london", "juandeba_crudmsc2019")
 # Creamos ub objeto tipo cursor
 cursor = db.cursor()
 
@@ -75,7 +75,7 @@ def reporte():
     pdf.cell(60, 10, 'Sueldo', 1, 1, 'C')
 
     # conexion a mysql
-    con = pymysql.connect(host="localhost", user="root", password="", database="msc2019")
+    con = pymysql.connect(host="juandebarco.com", user="juandeba_admin", password="time in london", database="juandeba_crudmsc2019")
     cursor = con.cursor()
     cursor.execute("select * from empelado")
     rows = cursor.fetchall()
@@ -96,7 +96,7 @@ clave = StringVar()
 nombre = StringVar()
 sueldo = StringVar()
 
-root.geometry("500x250")
+root.geometry("650x250")
 root.resizable(width=False, height=False)
 root.title('CRUD PYTHON')
 
@@ -124,7 +124,7 @@ btn_actualizar.place(x=135, y=140)
 btn_reporte = Button(root, text="Reporte", command=reporte)
 btn_reporte.place(x=205, y=140)
 
-list = Listbox(root)
+list = Listbox(root, width=50)
 list.place(x=290, y=30)
 show()
 root.mainloop()

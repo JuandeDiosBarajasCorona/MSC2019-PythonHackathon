@@ -170,6 +170,7 @@
       <workItem from="1573170329393" duration="7435000" />
       <workItem from="1573775620747" duration="6693000" />
       <workItem from="1573862767268" duration="1989000" />
+      <workItem from="1574362232406" duration="2487000" />
     </task>
     <servers />
   </component>
@@ -192,7 +193,7 @@
   <component name="com.intellij.coverage.CoverageDataManagerImpl">
     <SUITE FILE_PATH="coverage/MSC2019$Listas.coverage" NAME="Listas Coverage Results" MODIFIED="1573778189423" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
     <SUITE FILE_PATH="coverage/MSC2019$Insertar.coverage" NAME="Insertar Coverage Results" MODIFIED="1574362281194" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/database" />
-    <SUITE FILE_PATH="coverage/MSC2019$CRUD.coverage" NAME="CRUD Coverage Results" MODIFIED="1574362286190" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/CRUD" />
+    <SUITE FILE_PATH="coverage/MSC2019$CRUD.coverage" NAME="CRUD Coverage Results" MODIFIED="1574368991010" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/CRUD" />
     <SUITE FILE_PATH="coverage/MSC2019$MainCilindro.coverage" NAME="MainCilindro Coverage Results" MODIFIED="1573782143523" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
     <SUITE FILE_PATH="coverage/MSC2019$Conexion.coverage" NAME="Conexion Coverage Results" MODIFIED="1573863592555" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/database" />
     <SUITE FILE_PATH="coverage/MSC2019$Circunferencia.coverage" NAME="Circunferencia Coverage Results" MODIFIED="1573173877149" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
